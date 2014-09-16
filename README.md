@@ -13,3 +13,5 @@ node中如何完成任务的技术论坛   http://howtonode.org/
 nodejs和express的session中间件  http://blog.modulus.io/nodejs-and-express-sessions
 
 node服务端生成PDF（使用phantom注意事项及性能优化方案）   http://www.feedhenry.com/server-side-pdf-generation-node-js/
+
+原型继承  http://javascript.info/tutorial/inheritance
