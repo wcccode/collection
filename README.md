@@ -3,7 +3,7 @@ node文章博客学习资料收集
 
 ----nodejs-----
 
-包含各类关于学习node的文章和教程  http://book.mixu.net/
+包含各类关于学习node的文章和教程  http://www.hacksparrow.com/
 
 node中如何完成任务的技术论坛   http://howtonode.org/
 
