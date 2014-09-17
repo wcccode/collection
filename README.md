@@ -1,6 +1,8 @@
 node文章博客学习资料收集
 ==========
 
+----nodejs-----
+
 包含各类关于学习node的文章和教程  http://book.mixu.net/
 
 node中如何完成任务的技术论坛   http://howtonode.org/
@@ -14,4 +16,11 @@ nodejs和express的session中间件  http://blog.modulus.io/nodejs-and-express-s
 
 node服务端生成PDF（使用phantom注意事项及性能优化方案）   http://www.feedhenry.com/server-side-pdf-generation-node-js/
 
+
+------javascript-----
+
 原型继承  http://javascript.info/tutorial/inheritance
+
+javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns/book/
+
+
