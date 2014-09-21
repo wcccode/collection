@@ -4,6 +4,7 @@ node文章博客学习资料收集
 ----nodejs-----
 
 stream流学习指南 https://github.com/substack/stream-handbook
+理解node的stream http://neethack.com/2013/12/understand-node-stream-what-i-learned-when-fixing-aws-sdk-bug/
 
 包含各类关于学习node的文章和教程  http://www.hacksparrow.com/
 
