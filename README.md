@@ -3,6 +3,8 @@ node文章博客学习资料收集
 
 ----nodejs-----
 
+关于unix和node中的process http://dailyjs.com/2012/03/22/unix-node-processes/
+
 stream流学习指南 https://github.com/substack/stream-handbook
 
 理解node的stream http://neethack.com/2013/12/understand-node-stream-what-i-learned-when-fixing-aws-sdk-bug/
