@@ -3,6 +3,8 @@ node文章博客学习资料收集
 
 ----nodejs-----
 
+process的创建方式 http://jlunaquiroga.blogspot.com/2014/03/creating-processes-in-nodejs.html
+
 关于unix和node中的process http://dailyjs.com/2012/03/22/unix-node-processes/
 
 stream流学习指南 https://github.com/substack/stream-handbook
