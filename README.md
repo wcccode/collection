@@ -3,6 +3,8 @@ node文章博客学习资料收集
 
 ----nodejs-----
 
+node的相关文章 http://docs.nodejitsu.com/articles
+
 process的创建方式 http://jlunaquiroga.blogspot.com/2014/03/creating-processes-in-nodejs.html
 
 关于unix和node中的process http://dailyjs.com/2012/03/22/unix-node-processes/
