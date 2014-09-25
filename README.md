@@ -34,3 +34,7 @@ node服务端生成PDF（使用phantom注意事项及性能优化方案）   htt
 javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns/book/
 
 
+------code-------
+
+编写高质量代码的6个技巧  http://www.sitepoint.com/6-tips-for-writing-better-code/
+
