@@ -38,3 +38,4 @@ javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns
 
 编写高质量代码的6个技巧  http://www.sitepoint.com/6-tips-for-writing-better-code/
 
+项目开发的设计和开发步骤   https://github.com/north/north
