@@ -3,6 +3,8 @@ node文章博客学习资料收集
 
 ----nodejs-----
 
+开发和发布node的模块(module)  http://quickleft.com/blog/creating-and-publishing-a-node-js-module
+
 node的相关文章 http://docs.nodejitsu.com/articles
 
 process的创建方式 http://jlunaquiroga.blogspot.com/2014/03/creating-processes-in-nodejs.html
