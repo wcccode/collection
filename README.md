@@ -9,6 +9,8 @@ node中构建cli   http://www.smashingmagazine.com/2014/02/12/build-cli-tool-nod
 
 node的相关文章 http://docs.nodejitsu.com/articles
 
+node中管理子进程 http://krasimirtsonev.com/blog/article/Nodejs-managing-child-processes-starting-stopping-exec-spawn
+
 process的创建方式 http://jlunaquiroga.blogspot.com/2014/03/creating-processes-in-nodejs.html
 
 关于unix和node中的process http://dailyjs.com/2012/03/22/unix-node-processes/
