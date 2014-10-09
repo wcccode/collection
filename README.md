@@ -3,6 +3,8 @@ node文章博客学习资料收集
 
 ----nodejs-----
 
+node事件模型https://developer.yahoo.com/blogs/ydnfourblog/part-1-understanding-event-loops-writing-great-code-11401.html
+
 开发和发布node的模块(module)  http://quickleft.com/blog/creating-and-publishing-a-node-js-module
 
 node中构建cli   http://www.smashingmagazine.com/2014/02/12/build-cli-tool-nodejs-phantomjs/
@@ -34,6 +36,8 @@ node服务端生成PDF（使用phantom注意事项及性能优化方案）   htt
 
 
 ------javascript-----
+
+javascript 事件驱动模型  http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/
 
 原型继承  http://javascript.info/tutorial/inheritance
 
