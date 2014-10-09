@@ -28,6 +28,8 @@ node中如何完成任务的技术论坛   http://howtonode.org/
 作者mixu关于node的技术博客  http://blog.mixu.net/category/node-js/
         关于node的书   http://book.mixu.net/
 
+node书籍Node: Up and Running  http://chimera.labs.oreilly.com/books/1234000001808/index.html
+
 零停机重启node服务  http://jaxbot.me/articles/zero_downtime_nodejs_reloads_with_clusters_7_5_2013?t
 
 nodejs和express的session中间件  http://blog.modulus.io/nodejs-and-express-sessions
