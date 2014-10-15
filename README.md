@@ -51,3 +51,7 @@ javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns
 编写高质量代码的6个技巧  http://www.sitepoint.com/6-tips-for-writing-better-code/
 
 项目开发的设计和开发步骤   https://github.com/north/north
+
+
+------test------
+负载测试：设定目标  http://www1.practicalperformanceanalyst.com/resources/authors-corner/authors-corner-bob-wescott/load-tests-setting-the-goals-bob-wescott/
