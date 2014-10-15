@@ -54,4 +54,5 @@ javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns
 
 
 ------test------
+
 负载测试：设定目标  http://www1.practicalperformanceanalyst.com/resources/authors-corner/authors-corner-bob-wescott/load-tests-setting-the-goals-bob-wescott/
