@@ -58,3 +58,5 @@ javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns
 负载测试：设定目标  http://www1.practicalperformanceanalyst.com/resources/authors-corner/authors-corner-bob-wescott/load-tests-setting-the-goals-bob-wescott/
 
 性能指标：活动用户 VS 连接用户   http://www.performancecompetence.com/wordpress/?p=87
+
+并发用户数与TPS之间的关系   http://hitest.aliyun.com/front/share/shareDetail.htm?spm=0.0.0.0.iqDJNK&shareId=194011410749727463
