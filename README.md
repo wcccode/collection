@@ -64,4 +64,6 @@ javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns
 
 ------project ----
 
-Agile Thinking : Stop Starting, Start Finishing    http://www.agilebuddha.com/agile/agile-thinking-stop-starting-start-finishing/
+思维的敏捷 : Stop Starting, Start Finishing    http://www.agilebuddha.com/agile/agile-thinking-stop-starting-start-finishing/
+
+什么是看板？        http://www.everydaykanban.com/what-is-kanban/
