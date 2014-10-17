@@ -60,3 +60,8 @@ javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns
 性能指标：活动用户 VS 连接用户   http://www.performancecompetence.com/wordpress/?p=87
 
 并发用户数与TPS之间的关系   http://hitest.aliyun.com/front/share/shareDetail.htm?spm=0.0.0.0.iqDJNK&shareId=194011410749727463
+
+
+------project ----
+
+Agile Thinking : Stop Starting, Start Finishing    http://www.agilebuddha.com/agile/agile-thinking-stop-starting-start-finishing/
