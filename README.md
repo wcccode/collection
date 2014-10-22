@@ -1,6 +1,9 @@
 node文章博客学习资料收集
 ==========
 
+http://stackoverflow.com/questions/19043355/how-to-use-request-js-node-js-module-pools
+
+http://stackoverflow.com/questions/14533513/distributed-queue-wrapped-with-https-request-response
 ----nodejs-----
 
 node事件模型https://developer.yahoo.com/blogs/ydnfourblog/part-1-understanding-event-loops-writing-great-code-11401.html
