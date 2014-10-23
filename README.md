@@ -4,6 +4,9 @@ node文章博客学习资料收集
 
 ----nodejs-----
 
+防止server超时  http://contourline.wordpress.com/2011/03/30/preventing-server-timeout-in-node-js/
+
+node的socket连接默认2分钟后关闭  http://www.fingersdancing.net/2012/12/nodejs-connection-times-out-after-2.html
 
 node用于cpu密集型任务 http://neilk.net/blog/2013/04/30/why-you-should-use-nodejs-for-CPU-bound-tasks/
 
