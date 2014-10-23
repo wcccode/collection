@@ -1,10 +1,13 @@
 node文章博客学习资料收集
 ==========
 
-http://stackoverflow.com/questions/19043355/how-to-use-request-js-node-js-module-pools
 
-http://stackoverflow.com/questions/14533513/distributed-queue-wrapped-with-https-request-response
 ----nodejs-----
+
+
+node用于cpu密集型任务 http://neilk.net/blog/2013/04/30/why-you-should-use-nodejs-for-CPU-bound-tasks/
+
+node不是单线程 http://rickgaribay.net/archive/2012/01/28/node-is-not-single-threaded.aspx
 
 node事件模型https://developer.yahoo.com/blogs/ydnfourblog/part-1-understanding-event-loops-writing-great-code-11401.html
 
