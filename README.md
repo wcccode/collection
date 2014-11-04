@@ -54,6 +54,9 @@ javascript 事件驱动模型  http://blog.carbonfive.com/2013/10/27/the-javascr
 
 javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns/book/
 
+------http-----
+
+web开发必须理解的http协议http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
 
 ------code-------
 
