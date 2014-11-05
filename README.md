@@ -58,6 +58,8 @@ javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns
 
 web开发必须理解的http协议http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
         http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-2--net-31155
+        
+基于网络的软件架构设计   http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
 
 ------code-------
 
