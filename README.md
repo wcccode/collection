@@ -61,6 +61,8 @@ web开发必须理解的http协议http://code.tutsplus.com/tutorials/http-the-pr
         
 基于网络的软件架构设计   http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
 
+http status code 301 VS 302   http://webdesign.about.com/od/http/qt/tip301v302redir.htm
+
 ------code-------
 
 编写高质量代码的6个技巧  http://www.sitepoint.com/6-tips-for-writing-better-code/
