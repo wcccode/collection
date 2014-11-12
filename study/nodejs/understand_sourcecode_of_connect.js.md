@@ -12,6 +12,7 @@
   6. 路由匹配，进行处理，若出现异常则继续遍历
 
 以下是修改后的源码
+```
 var finalhandler = require('finalhandler');
 var http = require('http');
 var debug = require('debug')('connect:dispatcher');
@@ -163,3 +164,4 @@ function call(handle, route, err, req, res, next) {
 function logerror(err){
   if (env !== 'test') console.error(err.stack || err.toString());
 }
+```
