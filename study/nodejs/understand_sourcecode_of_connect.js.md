@@ -1,4 +1,4 @@
-#connect 源码学习
+#<a href='https://github.com/senchalabs/connect'>connect</a> 源码学习
 这里主要说下connect的路由拦截处理。connect可以添加多个中间件或路由对http的请求进行处理。
 在处理http请求时，connect先获取相应的path，然后遍历相应的路由stack，每次从栈顶开始，
 当一个路由和path匹配时，若path符合/path、/path/*、/path.*则使用该路由处理请求，否则都跳过当前路由
@@ -10,6 +10,7 @@
   4. 当m<=n route = path.substring(0, m) 
   5. path[m]不等于undefined、'/'、'.'时跳过路由，继续遍历，如path=/test1，route=/test
   6. 路由匹配，进行处理，若出现异常则继续遍历
+
 /*!
  * Connect - HTTPServer
  * Copyright(c) 2010 Sencha Inc.
