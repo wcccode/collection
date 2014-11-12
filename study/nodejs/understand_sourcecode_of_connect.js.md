@@ -11,46 +11,15 @@
   5. path[m]不等于undefined、'/'、'.'时跳过路由，继续遍历，如path=/test1，route=/test
   6. 路由匹配，进行处理，若出现异常则继续遍历
 
-/*!
- * Connect - HTTPServer
- * Copyright(c) 2010 Sencha Inc.
- * Copyright(c) 2011 TJ Holowaychuk
- * MIT Licensed
- */
-
-/**
- * Module dependencies.
- */
-
+以下是修改后的源码
 var finalhandler = require('finalhandler');
 var http = require('http');
 var debug = require('debug')('connect:dispatcher');
 var parseUrl = require('parseurl');
 
-// prototype
-
 var app = module.exports = {};
 
-// environment
-
 var env = process.env.NODE_ENV || 'development';
-
-/**
- * Utilize the given middleware `handle` to the given `route`,
- * defaulting to _/_. This "route" is the mount-point for the
- * middleware, when given a value other than _/_ the middleware
- * is only effective when that segment is present in the request's
- * pathname.
- *
- * For example if we were to mount a function at _/admin_, it would
- * be invoked on _/admin_, and _/admin/settings_, however it would
- * not be invoked for _/_, or _/posts_.
- *
- * @param {String|Function|Server} route, callback or server
- * @param {Function|Server} callback or server
- * @return {Server} for chaining
- * @api public
- */
 
 //添加中间件或者route处理http的请求
 app.use = function(route, fn){
@@ -74,24 +43,18 @@ app.use = function(route, fn){
     fn = fn.listeners('request')[0];
   }
 
-  // strip trailing slash 统一过滤route最后面的'/'  如/test、/test/是一样的
+  //统一过滤route最后面的'/'  如/test、/test/是一样的
   if ('/' == route[route.length - 1]) {
     route = route.slice(0, -1);
   }
 
-  // add the middleware 路由和对应的处理函数保存在栈里面
+  //路由和对应的处理函数保存在栈里面
   debug('use %s %s', route || '/', fn.name || 'anonymous');
   this.stack.push({ route: route, handle: fn });
 
   return this;
 };
 
-/**
- * Handle server requests, punting them down
- * the middleware stack.
- *
- * @api private
- */
 //这里负责处理每个http的请求
 app.handle = function(req, res, out) {
   var stack = this.stack
@@ -136,14 +99,12 @@ app.handle = function(req, res, out) {
     var path = parseUrl(req).pathname || '/';
     var route = layer.route;
 
-    // skip this layer if the route doesn't match
     // 跳过不匹配的路由，此处会以此时route的长度n截取path的0到n的内容并看是否匹配，
     // 若不匹配则跳过继续下一个路由。若匹配则继续，暂时不管path的大于n后的内容
     if (path.toLowerCase().substr(0, route.length) !== route.toLowerCase()) {
       return next(err);
     }
     
-    // skip if route match does not border "/", ".", or end
     // 此时有两种情况，一种是/route、/route/* 或 /route.*，另一种是/route*
     // 若第一种情况则继续执行，否则跳过路由
     var c = path[route.length];
@@ -162,8 +123,6 @@ app.handle = function(req, res, out) {
         slashAdded = true;
       }
     }
-
-    // call the layer handle
     // 处理相应的路由，若出错则跳过路由继续
     call(layer.handle, route, err, req, res, next);
   }
@@ -171,42 +130,10 @@ app.handle = function(req, res, out) {
   next();
 };
 
-/**
- * Listen for connections.
- *
- * This method takes the same arguments
- * as node's `http.Server#listen()`.
- *
- * HTTP and HTTPS:
- *
- * If you run your application both as HTTP
- * and HTTPS you may wrap them individually,
- * since your Connect "server" is really just
- * a JavaScript `Function`.
- *
- *      var connect = require('connect')
- *        , http = require('http')
- *        , https = require('https');
- *
- *      var app = connect();
- *
- *      http.createServer(app).listen(80);
- *      https.createServer(options, app).listen(443);
- *
- * @return {http.Server}
- * @api public
- */
-
 app.listen = function(){
   var server = http.createServer(this);
   return server.listen.apply(server, arguments);
 };
-
-/**
- * Invoke a route handle.
- *
- * @api private
- */
 
 function call(handle, route, err, req, res, next) {
   var arity = handle.length;
@@ -232,13 +159,6 @@ function call(handle, route, err, req, res, next) {
   // continue
   next(err);
 }
-
-/**
- * Log error using console.error.
- *
- * @param {Error} err
- * @api public
- */
 
 function logerror(err){
   if (env !== 'test') console.error(err.stack || err.toString());
