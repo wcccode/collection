@@ -11,7 +11,7 @@
   5. path[m]不等于undefined、'/'、'.'时跳过路由，继续遍历，如path=/test1，route=/test
   6. 路由匹配，进行处理，若出现异常则继续遍历
 
-以下是修改后的源码
+以下是修改注释后的源码
 ```
 var finalhandler = require('finalhandler');
 var http = require('http');
