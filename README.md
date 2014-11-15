@@ -12,7 +12,7 @@ node用于cpu密集型任务 http://neilk.net/blog/2013/04/30/why-you-should-use
 
 node不是单线程 http://rickgaribay.net/archive/2012/01/28/node-is-not-single-threaded.aspx
 
-node事件模型https://developer.yahoo.com/blogs/ydnfourblog/part-1-understanding-event-loops-writing-great-code-11401.html
+node事件模型<br/>https://developer.yahoo.com/blogs/ydnfourblog/part-1-understanding-event-loops-writing-great-code-11401.html<br/>http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/<br/>http://zef.me/4561/node-js-and-the-case-of-the-blocked-event-loop/
 
 开发和发布node的模块(module)  http://quickleft.com/blog/creating-and-publishing-a-node-js-module
 
