@@ -12,7 +12,7 @@ node用于cpu密集型任务 http://neilk.net/blog/2013/04/30/why-you-should-use
 
 node不是单线程 http://rickgaribay.net/archive/2012/01/28/node-is-not-single-threaded.aspx
 
-node事件模型<br/>https://developer.yahoo.com/blogs/ydnfourblog/part-1-understanding-event-loops-writing-great-code-11401.html<br/>http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/<br/>http://zef.me/4561/node-js-and-the-case-of-the-blocked-event-loop/
+node事件模型<br/>https://developer.yahoo.com/blogs/ydnfourblog/part-1-understanding-event-loops-writing-great-code-11401.html<br/>http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/<br/>http://zef.me/4561/node-js-and-the-case-of-the-blocked-event-loop/<br/>http://strongloop.com/strongblog/node-js-event-loop/
 
 开发和发布node的模块(module)  http://quickleft.com/blog/creating-and-publishing-a-node-js-module
 
@@ -48,11 +48,14 @@ node服务端生成PDF（使用phantom注意事项及性能优化方案）   htt
 
 ------javascript-----
 
-javascript 事件驱动模型  http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/
+javascript 事件驱动模型  http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/<br/>
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/EventLoop
 
 原型继承  http://javascript.info/tutorial/inheritance
 
 javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns/book/
+
+javascript Time如何运行 http://ejohn.org/blog/how-javascript-timers-work/
 
 ------http-----
 
