@@ -88,3 +88,7 @@ http status code 301 VS 302   http://webdesign.about.com/od/http/qt/tip301v302re
 思维的敏捷 : Stop Starting, Start Finishing    http://www.agilebuddha.com/agile/agile-thinking-stop-starting-start-finishing/
 
 什么是看板？        http://www.everydaykanban.com/what-is-kanban/
+
+-------encode---------
+
+utf-8 VS unicode  http://www.rrn.dk/the-difference-between-utf-8-and-unicode
