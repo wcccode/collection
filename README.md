@@ -58,6 +58,8 @@ javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns
 
 javascript Time如何运行 http://ejohn.org/blog/how-javascript-timers-work/
 
+javascript promise http://www.alloyteam.com/2014/05/javascript-promise-mode/
+
 ------http-----
 
 web开发必须理解的http协议http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
