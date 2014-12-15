@@ -69,6 +69,8 @@ web开发必须理解的http协议http://code.tutsplus.com/tutorials/http-the-pr
 
 http status code 301 VS 302   http://webdesign.about.com/od/http/qt/tip301v302redir.htm
                                https://www.ltnow.com/difference-301-302-redirects-seo/
+                               
+rest 设计架构 http://blog.csdn.net/qwlovedzm/article/details/6649973
 
 ------code-------
 
