@@ -78,6 +78,9 @@ rest 设计架构 http://blog.csdn.net/qwlovedzm/article/details/6649973<br/>htt
 
 项目开发的设计和开发步骤   https://github.com/north/north
 
+grunt http://www.linuxeden.com/html/news/20131120/145707.html <br/>http://blog.fens.me/nodejs-bower-intro/<br>http://chuo.me/2013/02/twitter-bower.html
+
+
 
 ------test------
 
