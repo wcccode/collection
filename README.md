@@ -80,6 +80,7 @@ rest 设计架构 http://blog.csdn.net/qwlovedzm/article/details/6649973<br/>htt
 
 grunt http://www.linuxeden.com/html/news/20131120/145707.html <br/>http://blog.fens.me/nodejs-bower-intro/<br>http://chuo.me/2013/02/twitter-bower.html
 
+sublime package -- https://sublime.wbond.net/installation#st2
 
 
 ------test------
