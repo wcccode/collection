@@ -72,6 +72,10 @@ http status code 301 VS 302   http://webdesign.about.com/od/http/qt/tip301v302re
                                
 rest 设计架构 http://blog.csdn.net/qwlovedzm/article/details/6649973<br/>http://www.ibm.com/developerworks/cn/web/wa-ajaxarch/
 
+restful API设计 http://code.tutsplus.com/tutorials/restful-api-design-with-nodejs-restify--cms-22637
+
+基于token的认证 http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543
+
 ------code-------
 
 编写高质量代码的6个技巧  http://www.sitepoint.com/6-tips-for-writing-better-code/
