@@ -61,6 +61,8 @@ sublime package -- https://sublime.wbond.net/installation#st2
 
 什么是看板？        http://www.everydaykanban.com/what-is-kanban/
 
+敏捷相关书籍博客    http://www.leanagiletraining.com/lean-agile-scrum-resources/books-articles-and-blogs/
+
 -------encode---------
 
 utf-8 VS unicode  http://www.rrn.dk/the-difference-between-utf-8-and-unicode
