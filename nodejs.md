@@ -1,6 +1,7 @@
 ## node collection
 
 ----nodejs-----
+nodejs module分类 https://nodejsmodules.org/
 
 防止server超时  http://contourline.wordpress.com/2011/03/30/preventing-server-timeout-in-node-js/
 
