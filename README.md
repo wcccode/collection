@@ -35,6 +35,10 @@ restful API设计 http://code.tutsplus.com/tutorials/restful-api-design-with-nod
 
 基于token的认证 http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543
 
+基于网络的软件架构设计 http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
+
+可扩展的分布式架构 http://www.aosabook.org/en/distsys.html
+
 ------code-------
 
 编写高质量代码的6个技巧  http://www.sitepoint.com/6-tips-for-writing-better-code/
