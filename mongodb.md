@@ -6,4 +6,8 @@ mongodb基础知识  http://christiankvalheim.com/post/a_basic_introduction_to_m
 
 连接池  https://blog.compose.io/node-js-mongodb-and-pool-pollution-problems/
 
+http://www.infoq.com/articles/data-model-mongodb
+
+http://www.toadworld.com/platforms/nosql/w/wiki/343.mongodb-and-e-commerce.aspx#Querying_Orders
+
 
