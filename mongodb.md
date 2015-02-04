@@ -11,3 +11,13 @@ http://www.infoq.com/articles/data-model-mongodb
 http://www.toadworld.com/platforms/nosql/w/wiki/343.mongodb-and-e-commerce.aspx#Querying_Orders
 
 
+/******************************/<br/>
+#take advantage of indexes
+$in、$all
+
+#cann't take advantage of indexes
+$nin、$ne、$size、$where、$regex、$mod<br/>
+combination with another query term that does use an index
+
+
+
