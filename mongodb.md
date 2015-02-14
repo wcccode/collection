@@ -23,3 +23,15 @@ combination with another query term that does use an index
 
 
 
+启动数据库<br/>
+mongod --dbpath "D:\mongodb\data\db" --logpath "D:\mongodb\log\MongoDB.log"<br/>
+
+创建集群<br/>
+mongod --replSet myapp --dbpath "D:\mongodb\data\db" --port 4000<br/>
+mongod --replSet myapp --dbpath "D:\mongodb\data\db2" --port 4001<br/>
+mongod --replSet myapp --dbpath "D:\mongodb\data\arbiter" --port 4002<br/>
+
+mongo --port 4000 连接主节点<br/>
+rs.add("host:4001")添加副节点<br/>
+rs.add("host:4002", {arbiterOnly: true})添加仲裁者<br/>
+
