@@ -19,7 +19,8 @@ javascript promise http://www.alloyteam.com/2014/05/javascript-promise-mode/
 
 Js 博客  http://javascriptissexy.com<br/>.    http://superherojs.com/  <br/> http://code.tutsplus.com/
 
-js template engine  http://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line
+js template engine  http://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line<br/>
+http://ejohn.org/blog/javascript-micro-templating/
 
 ------http-----
 
