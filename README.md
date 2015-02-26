@@ -6,7 +6,17 @@
 
 ------<a href="https://github.com/wcccode/collection/blob/master/javascript.md">javascript</a>-----
 
+------<a href="https://github.com/wcccode/collection/blob/master/golang.md">Golang</a>------
 
+------<a href="https://github.com/wcccode/collection/blob/master/hadoop.md">hadoop</a>------
+
+------<a href="https://github.com/wcccode/collection/blob/master/mongodb.md">mongodb</a>----
+
+------<a href="https://github.com/wcccode/collection/blob/master/nodejs.md">nodejs</a>-----
+
+------<a href="https://github.com/wcccode/collection/blob/master/python.md">python</a>-----
+
+------<a href="https://github.com/wcccode/collection/blob/master/struts2.md">struts2</a>---
 
 ------http-----
 
