@@ -19,6 +19,8 @@ javascript promise http://www.alloyteam.com/2014/05/javascript-promise-mode/
 
 Js 博客  http://javascriptissexy.com<br/>.    http://superherojs.com/  <br/> http://code.tutsplus.com/
 
+js template engine  http://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line
+
 ------http-----
 
 web开发必须理解的http协议http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
