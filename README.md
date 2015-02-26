@@ -4,23 +4,9 @@
 包含各种技术书籍  http://it-ebooks.info/
 
 
-------javascript-----
+------<a href="https://github.com/wcccode/collection/blob/master/javascript.md">javascript</a>-----
 
-javascript 事件驱动模型  http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/<br/>
-https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/EventLoop
 
-原型继承  http://javascript.info/tutorial/inheritance
-
-javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns/book/
-
-javascript Time如何运行 http://ejohn.org/blog/how-javascript-timers-work/
-
-javascript promise http://www.alloyteam.com/2014/05/javascript-promise-mode/
-
-Js 博客  http://javascriptissexy.com<br/>.    http://superherojs.com/  <br/> http://code.tutsplus.com/
-
-js template engine  http://krasimirtsonev.com/blog/article/Javascript-template-engine-in-just-20-line<br/>
-http://ejohn.org/blog/javascript-micro-templating/
 
 ------http-----
 
