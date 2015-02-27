@@ -17,3 +17,5 @@ js template engine  http://krasimirtsonev.com/blog/article/Javascript-template-e
 http://ejohn.org/blog/javascript-micro-templating/
 
 "with" keyword  http://yuiblog.com/blog/2006/04/11/with-statement-considered-harmful/ <br/>
+
+javascript-unicode   https://mathiasbynens.be/notes/javascript-unicode
