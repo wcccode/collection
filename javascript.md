@@ -18,4 +18,4 @@ http://ejohn.org/blog/javascript-micro-templating/
 
 "with" keyword  http://yuiblog.com/blog/2006/04/11/with-statement-considered-harmful/ <br/>
 
-javascript-unicode   https://mathiasbynens.be/notes/javascript-unicode
+javascript-unicode   https://mathiasbynens.be/notes/javascript-unicode<br/>http://www.ruanyifeng.com/blog/2014/12/unicode.html
