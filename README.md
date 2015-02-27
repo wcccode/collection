@@ -40,6 +40,8 @@ restful API设计 http://code.tutsplus.com/tutorials/restful-api-design-with-nod
 
 软件架构相关文章  http://www.aosabook.org/en/index.html
 
+High Performance Browser Networking  http://chimera.labs.oreilly.com/books/1230000000545/index.html
+
 ------code-------
 
 编写高质量代码的6个技巧  http://www.sitepoint.com/6-tips-for-writing-better-code/
