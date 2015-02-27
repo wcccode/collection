@@ -1,5 +1,7 @@
 #javascript
 
+ECMAScript  6  http://es6.ruanyifeng.com/#README
+
 javascript 事件驱动模型  http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/<br/>
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/EventLoop
 
