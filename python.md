@@ -1,3 +1,3 @@
 #python
 
-教程   http://www.afterhoursprogramming.com/tutorial/Python/Overview/
+教程  https://docs.python.org/2/tutorial/index.html
