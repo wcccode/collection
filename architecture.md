@@ -1,10 +1,14 @@
 #architecture
 
 基于网络的软件架构设计   http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
-                               
+
+-----Restfull-----                              
 rest 设计架构 http://blog.csdn.net/qwlovedzm/article/details/6649973<br/>http://www.ibm.com/developerworks/cn/web/wa-ajaxarch/<br/>http://www.infoq.com/cn/articles/web-api-design-methodology
 
 restful API设计 http://code.tutsplus.com/tutorials/restful-api-design-with-nodejs-restify--cms-22637
+
+rest阅读材料   http://www.infoq.com/cn/articles/rest-reading-list
+
 
 基于token的认证 http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543
 
