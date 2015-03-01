@@ -18,30 +18,10 @@
 
 ------<a href="https://github.com/wcccode/collection/blob/master/struts2.md">struts2</a>---
 
-------http-----
+------<a href="https://github.com/wcccode/collection/blob/master/http.md">http</a>-----
 
-web开发必须理解的http协议http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
-        http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-2--net-31155
+------<a href="https://github.com/wcccode/collection/blob/master/architecture.md">architecture</a>-----
         
-基于网络的软件架构设计   http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
-
-http status code 301 VS 302   http://webdesign.about.com/od/http/qt/tip301v302redir.htm
-                               https://www.ltnow.com/difference-301-302-redirects-seo/
-                               
-rest 设计架构 http://blog.csdn.net/qwlovedzm/article/details/6649973<br/>http://www.ibm.com/developerworks/cn/web/wa-ajaxarch/<br/>http://www.infoq.com/cn/articles/web-api-design-methodology
-
-restful API设计 http://code.tutsplus.com/tutorials/restful-api-design-with-nodejs-restify--cms-22637
-
-基于token的认证 http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543
-
-基于网络的软件架构设计 http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
-
-可扩展的分布式架构 http://www.aosabook.org/en/distsys.html
-
-软件架构相关文章  http://www.aosabook.org/en/index.html
-
-High Performance Browser Networking  http://chimera.labs.oreilly.com/books/1230000000545/index.html
-
 ------code-------
 
 编写高质量代码的6个技巧  http://www.sitepoint.com/6-tips-for-writing-better-code/
