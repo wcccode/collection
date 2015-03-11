@@ -1,6 +1,8 @@
 文章博客学习资料收集
 ==========
 
+http://haifzhan.blogspot.com/2013_02_01_archive.html
+
 包含各种技术书籍  http://it-ebooks.info/
 
 
