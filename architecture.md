@@ -23,3 +23,5 @@ High Performance Browser Networking  http://chimera.labs.oreilly.com/books/12300
 
 architecture blog http://www.codingthearchitecture.com/blogentries/1.html<br/>
 package http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
+
+DDD  http://www.codeproject.com/Articles/339725/Domain-Driven-Design-Clear-Your-Concepts-Before-Yo
