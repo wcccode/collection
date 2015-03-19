@@ -19,3 +19,7 @@ rest阅读材料   http://www.infoq.com/cn/articles/rest-reading-list
 软件架构相关文章  http://www.aosabook.org/en/index.html
 
 High Performance Browser Networking  http://chimera.labs.oreilly.com/books/1230000000545/index.html
+
+
+architecture blog http://www.codingthearchitecture.com/blogentries/1.html<br/>
+package http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
