@@ -25,3 +25,5 @@ architecture blog http://www.codingthearchitecture.com/blogentries/1.html<br/>
 package http://www.codingthearchitecture.com/2015/03/08/package_by_component_and_architecturally_aligned_testing.html
 
 DDD  http://www.codeproject.com/Articles/339725/Domain-Driven-Design-Clear-Your-Concepts-Before-Yo
+
+SSO单点登录  http://merbist.com/2012/04/04/building-and-implementing-a-single-sign-on-solution/
