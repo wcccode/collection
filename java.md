@@ -1,5 +1,8 @@
 #java
 
+教程 http://www.javamex.com/tutorials/
+
+## Collection & Map
 java:hashMap  http://howtodoinjava.com/2012/10/09/how-hashmap-works-in-java/
 
 
