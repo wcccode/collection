@@ -3,7 +3,10 @@
 教程 http://www.javamex.com/tutorials/
 
 ## Collection & Map
-java:hashMap  http://howtodoinjava.com/2012/10/09/how-hashmap-works-in-java/
+
+hashMap  http://howtodoinjava.com/2012/10/09/how-hashmap-works-in-java/<br/>
+treeMap  http://www.ibm.com/developerworks/cn/java/j-lo-tree/<br/>
+
 
 
 ## Thread
