@@ -10,3 +10,5 @@ building-web-apps-with-go    http://codegangsta.gitbooks.io/building-web-apps-wi
 middleware  https://justinas.org/writing-http-middleware-in-go/<br/>
 
 函数类型  http://jordanorelli.com/post/42369331748/function-types-in-go-golang
+
+异步 http://nathanleclaire.com/blog/2014/02/15/how-to-wait-for-all-goroutines-to-finish-executing-before-continuing/
