@@ -2,6 +2,8 @@
 
 
 package  https://golang.org/pkg/<br/>
+go 指南 http://tour.golangtc.com/welcome/1<br/>
+
 go 中文社区 http://docscn.studygolang.com/doc/<br/>http://studygolang.com/resources/cat/1<br/>http://golangtc.com/articles
 
 go mongo driver http://labix.org/mgo<br/>go例子 https://gobyexample.com/
