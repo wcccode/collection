@@ -13,4 +13,5 @@ middleware  https://justinas.org/writing-http-middleware-in-go/<br/>
 
 函数类型  http://jordanorelli.com/post/42369331748/function-types-in-go-golang
 
-异步 http://nathanleclaire.com/blog/2014/02/15/how-to-wait-for-all-goroutines-to-finish-executing-before-continuing/
+异步 http://nathanleclaire.com/blog/2014/02/15/how-to-wait-for-all-goroutines-to-finish-executing-before-continuing/<br/>
+http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
