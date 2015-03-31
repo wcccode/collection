@@ -14,3 +14,7 @@ arrayList http://beginnersbook.com/2013/12/difference-between-arraylist-and-link
 ### DCL - 双重检测锁
 http://www.javamex.com/tutorials/double_checked_locking.shtml<br/>
 http://www.javamex.com/tutorials/double_checked_locking_fixing.shtml
+
+
+## Concurrent
+java 并发编程  http://www.ibm.com/developerworks/cn/java/j-concurrent/
