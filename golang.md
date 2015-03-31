@@ -16,4 +16,4 @@ middleware  https://justinas.org/writing-http-middleware-in-go/<br/>
 异步 http://nathanleclaire.com/blog/2014/02/15/how-to-wait-for-all-goroutines-to-finish-executing-before-continuing/<br/>
 http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
 
-go优化5个重要方面 dave.cheney.net/2014/06/07/five-things-that-make-go-fast
+go优化5个重要方面 http://dave.cheney.net/2014/06/07/five-things-that-make-go-fast
