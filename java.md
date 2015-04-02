@@ -18,3 +18,5 @@ http://www.javamex.com/tutorials/double_checked_locking_fixing.shtml
 
 ## Concurrent
 java 并发编程  http://www.ibm.com/developerworks/cn/java/j-concurrent/
+
+reentrantLock  http://www.ibm.com/developerworks/java/library/j-jtp10264/
