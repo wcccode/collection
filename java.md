@@ -1,6 +1,6 @@
 #java
 
-教程 http://www.javamex.com/tutorials/
+教程 http://www.javamex.com/tutorials/<br/>http://tutorials.jenkov.com/
 
 ## Collection & Map
 
