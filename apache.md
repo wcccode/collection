@@ -17,3 +17,5 @@
 %    %25   
 #    %23   
 &    %26
+
+4.url中斜杠和反斜杠问题 http://www.leakon.com/archives/865
