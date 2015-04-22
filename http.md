@@ -12,4 +12,4 @@ http://code.tutsplus.com/articles/oauth-20-the-good-the-bad-the-ugly--net-33216
 
 facebook & twitter oAuth sample http://code.tutsplus.com/articles/social-authentication-for-nodejs-apps-with-passport--cms-21618<br/>
 
-https://vpn.cindapcic.com/por/service.csp?showsvc=1&autoOpen=1&rnd=kpjkaafhjgi
+ssl vpn https://vpn.cindapcic.com/por/service.csp?showsvc=1&autoOpen=1&rnd=kpjkaafhjgi
