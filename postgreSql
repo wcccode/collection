@@ -1,0 +1,11 @@
+#PostgreSQL
+
+##备份
+1.使用pgAdmin(大象) 进行备份<br/>
+2.使用命令<br/>  
+basePath/postgresql/bin/pg_dump.exe --host localhost --port 5432 --username "user" --password  --format custom --blobs --verbose --file "d:\bk.backup" --schema "public" "dbName"
+
+##恢复
+1.使用pgAdmin
+2.命令<br/>
+basePath/postgresql/bin/pg_restore.exe --host localhost --port 5432 --username "user" --dbname "dbName" --no-password  --verbose "d:\bk.backup"
