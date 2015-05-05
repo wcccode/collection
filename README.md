@@ -60,3 +60,5 @@ utf-8 VS unicode  http://www.rrn.dk/the-difference-between-utf-8-and-unicode
 http://katemats.com/
 
 http://matt.aimonetti.net/articles/categories/blog-post/
+
+http://vladmihalcea.com/
