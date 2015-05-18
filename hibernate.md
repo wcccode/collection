@@ -8,3 +8,6 @@ example http://www.journaldev.com/3793/hibernate-tutorial-with-example-projects
 
 
 oneToMany unidirectional  http://blog.moove-it.com/jpa-onetomany-i-need-fk-child-table/
+
+
+getCurrentSession & transaction http://myjourneyonjava.blogspot.com/2013/12/difference-between-opensession-and.html<br/>http://javahonk.com/hibernateexception-no-session-found-for-current-thread/<br/>https://technicalrecyclebin.wordpress.com/2014/10/12/org-hibernate-hibernateexception-no-session-found-for-current-thread/
