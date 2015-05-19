@@ -1,40 +1,28 @@
 文章博客学习资料收集
 ==========
 
+
 包含各种技术书籍  http://it-ebooks.info/
 
 
-------javascript-----
+------<a href="https://github.com/wcccode/collection/blob/master/javascript.md">javascript</a>-----
 
-javascript 事件驱动模型  http://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/<br/>
-https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/EventLoop
+------<a href="https://github.com/wcccode/collection/blob/master/golang.md">Golang</a>------
 
-原型继承  http://javascript.info/tutorial/inheritance
+------<a href="https://github.com/wcccode/collection/blob/master/hadoop.md">hadoop</a>------
 
-javascript设计模式 http://addyosmani.com/resources/essentialjsdesignpatterns/book/
+------<a href="https://github.com/wcccode/collection/blob/master/mongodb.md">mongodb</a>----
 
-javascript Time如何运行 http://ejohn.org/blog/how-javascript-timers-work/
+------<a href="https://github.com/wcccode/collection/blob/master/nodejs.md">nodejs</a>-----
 
-javascript promise http://www.alloyteam.com/2014/05/javascript-promise-mode/
+------<a href="https://github.com/wcccode/collection/blob/master/python.md">python</a>-----
 
-Js 博客  http://javascriptissexy.com<br/>.    http://superherojs.com/  <br/> http://code.tutsplus.com/
+------<a href="https://github.com/wcccode/collection/blob/master/struts2.md">struts2</a>---
 
-------http-----
+------<a href="https://github.com/wcccode/collection/blob/master/http.md">http</a>-----
 
-web开发必须理解的http协议http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
-        http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-2--net-31155
+------<a href="https://github.com/wcccode/collection/blob/master/architecture.md">architecture</a>-----
         
-基于网络的软件架构设计   http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
-
-http status code 301 VS 302   http://webdesign.about.com/od/http/qt/tip301v302redir.htm
-                               https://www.ltnow.com/difference-301-302-redirects-seo/
-                               
-rest 设计架构 http://blog.csdn.net/qwlovedzm/article/details/6649973<br/>http://www.ibm.com/developerworks/cn/web/wa-ajaxarch/
-
-restful API设计 http://code.tutsplus.com/tutorials/restful-api-design-with-nodejs-restify--cms-22637
-
-基于token的认证 http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543
-
 ------code-------
 
 编写高质量代码的6个技巧  http://www.sitepoint.com/6-tips-for-writing-better-code/
@@ -61,9 +49,18 @@ sublime package -- https://sublime.wbond.net/installation#st2
 
 什么是看板？        http://www.everydaykanban.com/what-is-kanban/
 
+敏捷相关书籍博客    http://www.leanagiletraining.com/lean-agile-scrum-resources/books-articles-and-blogs/
+
 -------encode---------
 
 utf-8 VS unicode  http://www.rrn.dk/the-difference-between-utf-8-and-unicode
 
--------golang--------
-go 中文社区 http://docscn.studygolang.com/doc/<br/>http://studygolang.com/resources/cat/1<br/>http://golangtc.com/articles
+
+个人博客
+http://katemats.com/
+
+http://matt.aimonetti.net/articles/categories/blog-post/
+
+http://vladmihalcea.com/
+
+git china https://git.oschina.net/
