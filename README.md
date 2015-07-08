@@ -56,6 +56,9 @@ sublime package -- https://sublime.wbond.net/installation#st2
 utf-8 VS unicode  http://www.rrn.dk/the-difference-between-utf-8-and-unicode
 
 
+html5 http://www.w3.org/TR/html5/
+
+
 个人博客
 http://katemats.com/
 
