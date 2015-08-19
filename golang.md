@@ -17,3 +17,5 @@ middleware  https://justinas.org/writing-http-middleware-in-go/<br/>
 http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
 
 go优化5个重要方面 http://dave.cheney.net/2014/06/07/five-things-that-make-go-fast
+
+https://deferpanic.com/blog/
