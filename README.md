@@ -66,4 +66,6 @@ http://matt.aimonetti.net/articles/categories/blog-post/
 
 http://vladmihalcea.com/
 
+http://agiledon.github.io/blog/archives/
+
 git china https://git.oschina.net/
