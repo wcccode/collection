@@ -1,5 +1,6 @@
 #Go
 
+go package home https://godoc.org/
 
 package  https://golang.org/pkg/<br/>
 go 指南 http://tour.golangtc.com/welcome/1<br/>
