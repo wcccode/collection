@@ -60,7 +60,7 @@ exit 0
 And make it executable:
 $ sudo chmod 755 /etc/init.d/tomcat
 Now update the run-levels:
-$ sudo update-rc.d tomcat defaults
+$ sudo update-rc.d tomcat defaults   or chkconfig --level 2345 tomcat on
  Adding system startup for /etc/init.d/tomcat ...
    /etc/rc0.d/K20tomcat -> ../init.d/tomcat
    /etc/rc1.d/K20tomcat -> ../init.d/tomcat
