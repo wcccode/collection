@@ -1,0 +1,82 @@
+Running as a Linux Service
+For security reasons you shouldn't run Tomcat as root. It is better to create a user named openkm and run Tomcat from him:
+$ sudo adduser openkm
+Create a file with the script:
+$ sudo vim /etc/init.d/tomcat
+#!/bin/sh
+ 
+### BEGIN INIT INFO
+# Provides:          tomcat
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start and stop Apache Tomcat
+# Description:       Enable Apache Tomcat service provided by daemon.
+### END INIT INFO
+ 
+ECHO=/bin/echo
+TEST=/usr/bin/test
+TOMCAT_USER=openkm
+TOMCAT_HOME=/home/openkm/tomcat-7.0.27
+TOMCAT_START_SCRIPT=$TOMCAT_HOME/bin/startup.sh
+TOMCAT_STOP_SCRIPT=$TOMCAT_HOME/bin/shutdown.sh
+ 
+$TEST -x $TOMCAT_START_SCRIPT || exit 0
+$TEST -x $TOMCAT_STOP_SCRIPT || exit 0
+ 
+start() {
+    $ECHO -n "Starting Tomcat"
+    su - $TOMCAT_USER -c "$TOMCAT_START_SCRIPT &"
+    $ECHO "."
+}
+ 
+stop() {
+    $ECHO -n "Stopping Tomcat"
+    su - $TOMCAT_USER -c "$TOMCAT_STOP_SCRIPT 60 -force &"
+    while [ "$(ps -fu $TOMCAT_USER | grep java | grep tomcat | wc -l)" -gt "0" ]; do
+        sleep 5; $ECHO -n "."
+    done
+    $ECHO "."
+}
+ 
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        sleep 30
+        start
+        ;;
+    *)
+        $ECHO "Usage: tomcat {start|stop|restart}"
+        exit 1
+esac
+exit 0
+And make it executable:
+$ sudo chmod 755 /etc/init.d/tomcat
+Now update the run-levels:
+$ sudo update-rc.d tomcat defaults
+ Adding system startup for /etc/init.d/tomcat ...
+   /etc/rc0.d/K20tomcat -> ../init.d/tomcat
+   /etc/rc1.d/K20tomcat -> ../init.d/tomcat
+   /etc/rc6.d/K20tomcat -> ../init.d/tomcat
+   /etc/rc2.d/S20tomcat -> ../init.d/tomcat
+   /etc/rc3.d/S20tomcat -> ../init.d/tomcat
+   /etc/rc4.d/S20tomcat -> ../init.d/tomcat
+   /etc/rc5.d/S20tomcat -> ../init.d/tomcat
+start Tomcat service:
+$ sudo service tomcat start
+stop Tomcat service:
+$ sudo service tomcat stop
+It's also a good idea to configure Tomcat memory utilization. Edit the file $TOMCAT_HOME/bin/setenv.sh and edit the parameter JAVA_OPTS where you can increase the system memory managed by the JVM (Java Virtual Machine):
+JAVA_OPTS="-Xms256m -Xmx1024m -XX:PermSize=128m -XX:MaxPermSize=256m -Djava.awt.headless=true -Dfile.encoding=utf-8"JAVA_OPTS="$JAVA_OPTS -XX:+UseConcMarkSweepGC -Dlog4j.configuration=file://$CATALINA_HOME/conf/log4j.properties"
+CATALINA_PID=$CATALINA_HOME/catalina.pid
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CATALINA_HOME/lib/sigar
+This example is for a system with 2 GB of RAM.
+Configure on Redhat / CentOS
+$ chkconfig tomcat --level 2345 on
