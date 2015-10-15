@@ -1,0 +1,7 @@
+到需要登录的用户下
+cd ~
+ssh-kengen 全部enter
+
+把.ssh/id_rsa.pub  复制的需要登录的目的主机用户目录的.ssh/
+cat id_rsa.pub >> authorized_keys 生成文件
+
