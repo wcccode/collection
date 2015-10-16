@@ -1,5 +1,6 @@
 #Go
 
+go package home https://godoc.org/
 
 package  https://golang.org/pkg/<br/>
 go 指南 http://tour.golangtc.com/welcome/1<br/>
@@ -17,3 +18,5 @@ middleware  https://justinas.org/writing-http-middleware-in-go/<br/>
 http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
 
 go优化5个重要方面 http://dave.cheney.net/2014/06/07/five-things-that-make-go-fast
+
+https://deferpanic.com/blog/

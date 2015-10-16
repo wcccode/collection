@@ -14,3 +14,5 @@ getCurrentSession & transaction http://myjourneyonjava.blogspot.com/2013/12/diff
 
 
 Transaction propagation  http://docs.spring.io/spring/docs/3.0.x/reference/transaction.html#tx-propagation
+
+session https://developer.atlassian.com/confdev/development-resources/confluence-architecture/hibernate-sessions-and-transaction-management-guidelines

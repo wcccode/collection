@@ -32,3 +32,6 @@ https://www.ibm.com/developerworks/cn/java/j-lo-googlecollection/
 
 ## Third part module
 xlsx  http://www.vogella.com/tutorials/JavaExcel/article.html
+
+
+pattern http://www.tutorialspoint.com/design_pattern/null_object_pattern.htm
