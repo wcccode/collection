@@ -1,0 +1,28 @@
+http server配置
+
+------------- 添加 Apache2.2/conf/workers.properties 文件--------------
+worker.list=loadbalancer
+
+worker.tcruntime8080.port=8009
+worker.tcruntime8080.host=localhost
+worker.tcruntime8080.type=ajp13
+worker.tcruntime8080.lbfactor=1
+
+worker.tcruntime8180.port=8109
+worker.tcruntime8180.host=localhost
+worker.tcruntime8180.type=ajp13
+worker.tcruntime8180.lbfactor=1
+
+worker.loadbalancer.type=lb
+worker.loadbalancer.balanced_workers=tcruntime8080,tcruntime8180
+
+--------------- 配置 Apache2.2/conf/httpd.conf --------------
+LoadModule jk_module modules/mod_jk.so
+<IfModule mod_jk.c>
+JkLogFile logs/mod_jk.log
+JkLogLevel debug
+JkShmFile logs/jk-runtime-status
+JkWorkersFile conf/workers.properties
+
+JkMount /* loadbalancer
+</IfModule>
