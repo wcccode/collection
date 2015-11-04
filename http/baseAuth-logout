@@ -1,0 +1,23 @@
+function logout() {
+    var userAgent = navigator.userAgent.toLowerCase();
+
+    if (userAgent.indexOf("msie") != -1) {
+        document.execCommand("ClearAuthenticationCache", false);
+    }
+
+    xhr_objectCarte = null;
+
+    if(window.XMLHttpRequest)
+        xhr_object = new XMLHttpRequest();
+    else if(window.ActiveXObject)
+        xhr_object = new ActiveXObject("Microsoft.XMLHTTP");
+    else
+        alert ("Your browser doesn't support XMLHTTPREQUEST");
+
+    xhr_object.open ('GET', '/api/admin/query/orders', false, 'username', 'password');
+    xhr_object.send ("");
+    xhr_object = null;
+
+    document.location = '/admin/allorder.html'; 
+    return false;
+}
