@@ -1,0 +1,79 @@
+Apache + Tomcat7 + redis 集群
+一、	redis安装
+1.	wget http://download.redis.io/releases/redis-3.0.5.tar.gz
+2.	tar xzf redis-3.0.5.tar.gz
+3.	cd redis-3.0.5
+4.	make 
+5.	mkdir /usr/redis
+6.	cp src/redis-server  /usr/redis 
+7.	cp src/redis-benchmark  /usr/redis
+8.	cp src/redis-cli  /usr/redis
+9.	cp redis.conf  /usr/redis 
+10.	cd /usr/redis
+11.	/usr/redis/redis-server  /usr/redis/redis.conf  启动Redis服务
+
+二、	tomcat7配置
+1.	配置context.xml, 末尾添加
+<Valve className="com.orangefunction.tomcat.redissessions.RedisSessionHandlerValve" />
+<Manager className="com.orangefunction.tomcat.redissessions.RedisSessionManager"
+			host="112.74.205.200" 
+			port="6379"  
+			database="0" 
+			maxInactiveInterval="1800" />
+2.	添加jar, 放在lib目录
+wget –c 
+https://github.com/rmohr/tomcat-redis-session-manager/releases/download/2.0-tomcat-7/tomcat-redis-session-manager-2.0.0.jar
+
+wget –c http://central.maven.org/maven2/redis/clients/jedis/2.5.2/jedis-2.5.2.jar
+wget –c 
+http://central.maven.org/maven2/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar
+
+三、	apache http server配置负载均衡
+1.	安装http server
+yum install httpd
+2.	配置服务
+chkconfig --levels 235 httpd on
+3．启动
+service httpd restart
+四、	安装mod_jk.so，用于tomcat的负载均衡
+1.	安装httpd.devel，动态扩展Apache
+sudo yum install httpd.devel
+查看路经：rpm -ql httpd-devel
+2.	下载tomcat-connectors
+wget 
+http://supergsego.com/apache/tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.41-src.tar.gz
+
+tar -xvf tomcat-connectors-1.2.41-src.tar.gz
+cd tomcat-connectors-1.2.41-src
+cd native
+./configure -with-apxs=/usr/bin/apxs
+make
+cp  native/apache-2.0/mod_jk.so  /etc/httpd/modules
+service  httpd  restart
+
+五、	配置tomcat集群
+1、	添加 Apache2.2/conf/workers.properties
+worker.list=loadbalancer
+worker.tcruntime8080.port=8009
+worker.tcruntime8080.host=localhost
+worker.tcruntime8080.type=ajp13
+worker.tcruntime8080.lbfactor=1
+
+worker.tcruntime8180.port=8109
+worker.tcruntime8180.host=localhost
+worker.tcruntime8180.type=ajp13
+worker.tcruntime8180.lbfactor=1
+
+worker.loadbalancer.type=lb
+worker.loadbalancer.balanced_workers=tcruntime8080,tcruntime8180
+
+2、	配置 Apache2.2/conf/httpd.conf
+LoadModule jk_module modules/mod_jk.so
+<IfModule mod_jk.c>
+JkLogFile logs/mod_jk.log
+JkLogLevel debug
+JkShmFile logs/jk-runtime-status
+JkWorkersFile conf/workers.properties
+
+JkMount /* loadbalancer
+</IfModule>
