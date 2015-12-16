@@ -1,0 +1,22 @@
+1、jks to crt
+
+  keytool -importkeystore -srckeystore mycert.jks -destkeystore keystore.p12 -deststoretype PKCS12
+  
+  openssl pkcs12 -in keystore.p12   -nokeys   -out my_key_store.crt 
+  
+  openssl pkcs12 -in keystore.p12   -nocerts -nodes  -out my_store.key
+  
+  openssl x509 -inform der -in mydomain.der -out certificate.pem
+  
+2、nginx.conf
+
+    ssl on;
+		ssl_certificate         /etc/nginx/yxzg_server.crt;
+		ssl_certificate_key     /etc/nginx/yxzg_server.key;
+		ssl_trusted_certificate /etc/nginx/yxzg_server.pem;
+		ssl_session_cache shared:SSL:20m;
+		ssl_session_timeout 10m;
+		ssl_prefer_server_ciphers       on;
+		ssl_protocols                   TLSv1 TLSv1.1 TLSv1.2;
+		ssl_ciphers                     ECDH+AESGCM:DH+AESGCM:ECDH+AES256:DH+AES256:ECDH+AES128:DH+AES:ECDH+3DES:DH+3DES:RSA+AESGCM:RSA+AES:RSA+3DES:!aNULL:!MD5:!DSS;
+		add_header Strict-Transport-Security "max-age=31536000";
