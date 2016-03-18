@@ -3,3 +3,5 @@
 
 
 http://html5up.net/
+
+http://www.flatuicolorpicker.com/all 颜色面板
