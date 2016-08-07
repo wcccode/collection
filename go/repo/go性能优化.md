@@ -3,3 +3,8 @@
 3.预先分配slice
 4.使用缓存减少io调用
 5.减少使用无用string（如byte转化成整数时，可以实现byteToBase10函数）
+
+
+
+#benchcmp#
+http://lk4d4.darth.io/posts/bench/
