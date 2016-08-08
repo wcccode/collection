@@ -11,3 +11,5 @@ http://lk4d4.darth.io/posts/bench/
 
 ##go-debugging-profiling-optimization##
 http://tonybai.com/2015/08/25/go-debugging-profiling-optimization/
+
+https://signalfx.com/blog/a-pattern-for-optimizing-go-2/
