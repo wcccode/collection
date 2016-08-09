@@ -23,3 +23,6 @@ https://deferpanic.com/blog/
 
 
 channel  http://guzalexander.com/2013/12/06/golang-channels-tutorial.html
+
+
+method set http://unitstep.net/blog/2015/09/16/golang-promoted-methods-method-sets-and-embedded-types/
