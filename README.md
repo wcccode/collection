@@ -2,7 +2,9 @@
 ==========
 
 
-包含各种技术书籍  http://it-ebooks.info/
+包含各种技术书籍  http://it-ebooks.info/  
+
+http://finelybook.com/
 
 
 ------<a href="https://github.com/wcccode/collection/blob/master/javascript.md">javascript</a>-----
